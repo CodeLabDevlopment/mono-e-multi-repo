@@ -38,6 +38,15 @@ Dentro do repositório principal você irá rodar os seguintes comandos.
 ```bash
 git submodule add git@github.com:seu-org/user-service.git services/user-service
 ```
+```bash
+git add .
+```
+```bash
+git commit -m ""
+```
+```bash
+git push
+```
 - Para carregar os módulos dentro do multi-repo
 ```bash
 git submodule update --init --recursive
